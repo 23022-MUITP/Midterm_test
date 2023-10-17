@@ -1,0 +1,125 @@
+/* Styles for the container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align the content */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the header */
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header h6 {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Styles for the news section */
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+/* Styles for individual articles */
+.article {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.articlecontent h2 {
+    font-size: 24px;
+}
+
+.articlecontent p {
+    font-size: 16px;
+}
+
+/* Styles for the sidebar */
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    loat: right; /* Float the sidebar to the right */
+  }
+
+
+.sidebar .pins {
+    margin-bottom: 20px;
+}
+
+.sidebar .pins h2 {
+    font-size: 18px;
+}
+
+.sidebar .pins img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sidebar .pins p {
+    font-size: 14px;
+    }
+
+/* Footer styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.bottomlinks h4 {
+    font-size: 18px;
+}
+
+.bottomlinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bottomlinks li {
+    margin-bottom: 10px;
+}
+
+.bottomlinks a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) 
+    .container {
+        padding: 10px;
+    }
+
+    .article h2 {
+        font-size: 20px;
+    }
+
+    .article p {
+        font-size: 14px;
+    }
